@@ -20,6 +20,7 @@ url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=s
 body{
 	font-family: Poppins;
 	font-size: 15px;
+	background-image: var(--Light-Gray);
 }
 
 header{
@@ -55,7 +56,7 @@ header h1{
 	padding: 5%;
 	border-width: 4px;
 	min-height: 200px;
-	box-shadow: 0px 10px 20px 0px hsla(229, 6%, 66%, 0.5);
+	box-shadow: 0px 10px 20px 0px hsla(229, 6%, 66%, 0.6);
 }
 
 .box p{
@@ -104,6 +105,14 @@ footer{
 		margin: 0 auto;
 		margin-top: 5%;
 		text-align: center;
+	}
+
+	header h1{
+		font-size: 2em;
+	}
+
+	#heading{
+		font-size: 2em;
 	}
 
 	.container{
